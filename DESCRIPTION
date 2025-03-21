@@ -1,0 +1,19 @@
+Package: vgwas
+Type: Package
+Title: Collection of functions useful for peforming viral gwas
+Version: 0.1.0
+Authors@R: person(
+      "David", "Smith-Parkin",
+      email = "dsmith-work@proton.me",
+      role = c("aut", "cre"))
+Description: A collection of functions to peform viral gwas based on the analysis performed in 
+    Smith DA, Fernandez-Antunez C, Magri A, Bowden R, Chaturvedi N, Fellay J, McLauchlan J, Foster GR, Irving WL; STOP-HCV Consortium; Simmonds P, Pedergnana V, Ramirez S, Bukh J, Barnes E, Ansari MA. Viral genome wide association study identifies novel hepatitis C virus polymorphisms associated with sofosbuvir treatment failure. Nat Commun. 2021 Oct 20;12(1):6105. doi: 10.1038/s41467-021-25649-6. PMID: 34671027; PMCID: PMC8528821.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    ggplot2,
+    ggrepel,
+    qvalue
+RoxygenNote: 7.3.2
