@@ -20,8 +20,8 @@ You can install the development version of vgwas from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("dasads44/vgwas")
+# install.packages("devtools")
+devtools::install_github("dasads44/vgwas")
 ```
 
 ## Example
